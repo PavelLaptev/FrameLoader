@@ -3,6 +3,8 @@
 FrameLoader is a set of modules for Framer.JS
 It will be useful for prototypes include a lot of pictures.
 
+#### [Demo exemple](http://share.framerjs.com/473cgxtavrju/)
+
 ## Installation
 
 Move the module preloader in a Framer project folder "Modules"
@@ -22,17 +24,19 @@ To create a preloader, you must write the name of the selected preloader and set
 
 You can change all basic parameters of the preloader from elements color, to size and speed.
 
+---
 ## CircleExpand loader
 
 ![](https://dl.dropboxusercontent.com/s/u4qvfgktci6yner/CircleExpand.gif?dl=0)
+![](https://dl.dropboxusercontent.com/s/izj9pd29twj0zug/CircleExpand_prop.jpg?dl=0)
 
 #### Properties
 
 ```coffeescript
 #create loader
 Loader.CircleExpand
-	hide:false #false or true
-	back: 'black'#background color  
+	hide: false #false or true
+	back: 'black' #background color  
 	circle1: 'red' #first circle color
 	circle2: 'white' #second circle color
 	circle3: 'gray' #third circle color
@@ -41,7 +45,76 @@ Loader.CircleExpand
 	to: 3 #set maximum value for time
 ```
 
-![](https://dl.dropboxusercontent.com/s/izj9pd29twj0zug/CircleExpand_prop.jpg?dl=0)
+
+---
+
+## Dots loader
+
+![](https://dl.dropboxusercontent.com/s/48asd6yx2lut88h/Dots.gif?dl=0)
+![](https://dl.dropboxusercontent.com/s/tgwisrsz6fx4c6p/Dots_prop.jpg?dl=0)
+
+#### Properties
+
+```coffeescript
+#create loader
+Loader.Dots
+	hide: false #false or true
+	back: 'black' #background color  
+	circle1: 'red' #first circle color
+	circle2: 'white' #second circle color
+	circle3: 'gray' #third circle color
+	curve: 'ease' #motion ease
+	from: 0.4 #set minimum value for time
+	to: 3 #set maximum value for time
+```
+
+
+---
+
+## Line loader
+
+![](https://dl.dropboxusercontent.com/s/0z646h4d1felo77/Line.gif?dl=0)
+![](https://dl.dropboxusercontent.com/s/kqt3nuckrytx0e0/Line_prop.jpg?dl=0)
+
+#### Properties
+
+```coffeescript
+#create loader
+Loader.Line
+	hide: false #false or true
+	back: 'black'#background color  
+	containerColor: 'white' #line container color
+	backLineColor: 'red' #line color
+	topLineColor: 'yellow' #line color
+	time: 1 #speed
+	curve: 'ease' #motion ease
+```
+
+
+---
+
+## Image loader
+
+![](https://dl.dropboxusercontent.com/s/yzswqy0bgojncez/Image.gif?dl=0)
+![](https://dl.dropboxusercontent.com/s/eeo31qhk8xkom7j/Image_prop.jpg?dl=0)
+
+#### Properties
+
+```coffeescript
+#create loader
+Loader.Image
+	hide: false #false or true
+	back: 'black' #background color
+	image: "images/logo.png" #image path
+	width: 108 #image width
+	height: 164 #image height
+	scale: 1 #image scale
+	time: 1 #zoom speed
+	curve: 'ease' #motion ease
+```
+
+
+---
 
 ### loading test
 
