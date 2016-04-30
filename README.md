@@ -1,7 +1,7 @@
 ![FrameLoader for Framer.JS](https://dl.dropboxusercontent.com/s/v7np8q7kofp45dt/head.jpg?dl=0)
 
 FrameLoader is a set of modules for Framer.JS
-It will be useful for prototypes include a lot of pictures.
+It will be useful for prototypes includes a lot of pictures.
 
 #### [Demo exemple](http://share.framerjs.com/473cgxtavrju/)
 
